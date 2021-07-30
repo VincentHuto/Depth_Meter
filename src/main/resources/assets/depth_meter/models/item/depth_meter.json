@@ -1,0 +1,42 @@
+{
+  "parent" : "minecraft:item/generated",
+  "textures" : {
+    "layer0" : "depth_meter:item/depth_meter"
+  },
+  "overrides" : [ {
+    "predicate" : {
+      "mode" : 1
+    },
+    "model" : "depth_meter:item/depth_meter_bedrock"
+  }, {
+    "predicate" : {
+      "mode" : 2
+    },
+    "model" : "depth_meter:item/depth_meter_lava"
+  }, {
+    "predicate" : {
+      "mode" : 3
+    },
+    "model" : "depth_meter:item/depth_meter_cave"
+  }, {
+    "predicate" : {
+      "mode" : 4
+    },
+    "model" : "depth_meter:item/depth_meter_surface"
+  }, {
+    "predicate" : {
+      "mode" : 5
+    },
+    "model" : "depth_meter:item/depth_meter_mountain"
+  }, {
+    "predicate" : {
+      "mode" : 6
+    },
+    "model" : "depth_meter:item/depth_meter_space"
+  }, {
+    "predicate" : {
+      "mode" : 999
+    },
+    "model" : "depth_meter:item/depth_meter_unknown"
+  } ]
+}

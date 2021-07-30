@@ -1,0 +1,21 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [ "NON", "NEN", "NBN" ],
+  "key" : {
+    "N" : {
+      "item" : "minecraft:brick"
+    },
+    "E" : {
+      "item" : "minecraft:diamond"
+    },
+    "O" : {
+      "item" : "minecraft:snow_block"
+    },
+    "B" : {
+      "item" : "minecraft:obsidian"
+    }
+  },
+  "result" : {
+    "item" : "depth_meter:depth_meter"
+  }
+}
